@@ -1,0 +1,12 @@
+.backButton {
+  display: flex;
+
+  width: 85%;
+  margin-top: 20px;
+}
+.backButton:hover {
+  cursor: pointer;
+}
+.backButton_title {
+  margin-left: 10px;
+}

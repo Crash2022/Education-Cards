@@ -1,0 +1,22 @@
+/*
+.filterShow {
+    display: flex;
+}
+.filterShow_item {
+    width: 80px;
+    padding: 8px;
+
+    text-align: center;
+
+    border: 1px solid #D9D9D9;
+}
+.filterShow > div:hover {
+    cursor: pointer;
+}
+
+.showActive {
+    color: white;
+
+    background-color: #366EFF;
+}
+*/

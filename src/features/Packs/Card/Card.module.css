@@ -1,0 +1,23 @@
+.searchRow {
+    margin-bottom: 25px;
+}
+
+.mainTable {
+    margin-bottom: 30px;
+}
+
+.deckCover_notMy {
+    display: flex;
+    align-items: center;
+}
+.deckCover {
+    composes: deckCover_notMy;
+
+    margin-left: 30px;
+}
+.deckCover img {
+    width: 100px;
+    height: auto;
+
+    border-radius: 5px;
+}

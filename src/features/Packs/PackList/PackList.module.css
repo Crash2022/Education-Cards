@@ -1,0 +1,52 @@
+.packList {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.search_row {
+    composes: header_row;
+
+    align-items: flex-end;
+
+    margin-bottom: 25px;
+}
+.column_title {
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rangeSlider {
+    display: flex;
+    align-items: center;
+}
+
+.filter_icon {
+    composes: rangeSlider;
+
+    align-self: flex-end;
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+
+    border: 1px solid #E8E8E8;
+}
+
+.mainTable {
+    margin-bottom: 30px;
+}
+
+.addNewPackBtn {
+    display: flex;
+    align-items: center;
+}

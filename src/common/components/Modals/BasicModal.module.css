@@ -1,0 +1,56 @@
+.modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 40px;
+    /*margin-bottom: 20px;*/
+    padding: 10px 20px;
+
+    border-bottom: 1px solid #c7c7c7;
+}
+.headerName {
+    font-size: 18px;
+    font-weight: bold;
+}
+.headerCloseBtn {
+    cursor: pointer;
+}
+.modalContent {
+    padding: 10px 20px;
+}
+.modalContent_text {
+    word-break: break-word;
+}
+
+
+.packModal_main > div {
+    margin-bottom: 20px;
+}
+.packModal_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteModal_buttons {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+}
+
+
+.newCardModal_textField_select {
+    margin-top: 20px;
+}
+.newCardModal_textField > div {
+    margin-bottom: 20px;
+}
+
+.packCoverImage {
+    text-align: center;
+}
+.packCoverImage img {
+    width: auto;
+    height: 150px;
+}
