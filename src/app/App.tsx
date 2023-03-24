@@ -47,7 +47,7 @@ export const App = () => {
   return (
     <div className="App">
       <NavBar />
-      <AdminMenuMain />
+      {/*<AdminMenuMain />*/}
       <div>
         <Routes>
           <Route element={<PrivateRoutes />}>
